@@ -38,3 +38,5 @@ function ShopCards () {
         </div>
     )
 }
+
+export default ShopCards;

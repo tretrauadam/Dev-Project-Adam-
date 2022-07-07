@@ -1,5 +1,4 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { findAllByAltText } from '@testing-library/react';
 import products from '../../Home';
 
 export const cartSlice = createSlice({
