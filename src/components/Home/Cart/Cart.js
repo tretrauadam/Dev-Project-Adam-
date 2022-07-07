@@ -34,11 +34,40 @@ const Cart = () => {
                                 <path strike-linecap="round" stroke-linejoin="round" strong-width='2' d="M6 18L18 6M6 6112 12" />
                             </svg>
                         </div>
-                        
+
+                        <div className='h-full'>
+                            {totalItems === 0 && 
+                              <div className='font-body flex flex-col justify-center items-center my-auto w-full h-3/4 md:h-full'>
+                                <p> your cart is empty </p>
+                                <Link to='/shop'>
+                                    <button onClick={() => dispatch(hideCart())} className="h-12 p-4 my-4 w-full text-sm bg-gray-900 text-white rounded transition duration-300 border-gray-900 
+                                     hover: bg-transparent hover:text-gray-900 hover:border"> Shop Now !
+                                    </button>
+                                </Link>
+                             </div> }
+                             {totalItems !== 0 &&
+                             <div> 
+                                <div className='flex-col divide-y-2 p-2 font-body text-gray-700'>
+                                    <div className='flex-col flex-shrink h-3/6 overflow-auto'> {cartItems}
+                                </div>
+                                <div className='flex p-4 justify-between'>
+                                    <p className=''>Subtotal</p>
+                                    <p className='font-semibold'>${Math.round(totalPrice * 100) / 100}</p>
+                               </div>
+                             </div>
+                             <div className='text-center'>
+                                <button className='h-12 p-4 w-2/4 text-sm bg-gray-900 text-white rounded transition duration-300 border-gray-900 
+                                    hover:bg-transparent hover:text-gray-900 hover:border'> 
+                                   Checkout
+                                </button>
+                             </div>
+                          </div>
+                        }
                     </div>
-                </div>
-            </div>
-        )
-}
+                 </div>
+             </div>
+        </div>
+        );
+};
 
 export default Cart; 
