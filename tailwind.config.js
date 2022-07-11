@@ -1,14 +1,24 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
       'display': ['Montserrat'],
-      'body' : ['Raleway'],
+      'body': ['Raleway'],
     },
     extend: {},
+  },
+  variants: {
+    extend: {
+      brightness: ['hover'],
+      contrast: ['hover'],
+      fontWeight: ['hover'],
+      borderWidth: ['hover, active'],
+      backgroundColor: ['active'],
+      outline: ['focus']
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),
   ],
-};
+}
