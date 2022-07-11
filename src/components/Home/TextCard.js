@@ -1,5 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'; 
+import work from 'assets/work.jpg'; 
+import window from 'assets/window.jpg'; 
 
 // need to import two pictures, one for each main div card. 
 
@@ -8,7 +10,7 @@ function TextCards() {
         <div className='my-24 py-24 bg-gray-200 bg-opacity-40 w-full'>
             <div className='2xl:w-3/4 m-auto flex flex-col justify-center space-y-16'>
                 <div className='flex justify-start md:w-1/2 mx-3 md:mx-0'>
-                    <img src='' alt=''/>
+                    <img src= {window} alt=''/>
                 </div>
                 <div className='flex flex-col md:w-5/12 space-y-8 justify-center text-center md:text-left mx-4 md:mr-6 2xl:mr-0'>
                     <h2 className='font-display text-2xl md:text-4xl'>Lets do this</h2>
@@ -44,7 +46,7 @@ function TextCards() {
                         </button>
                     </Link>
                     <div className='flex justify-start md:w-1/2 mx-3 md:mx-0'>
-                        <img src='' alt=''/>
+                        <img src={work} alt=''/>
                     </div>
 
                 </div>
