@@ -1,7 +1,13 @@
 import React from 'react';
+import 'index.css';
+import store from './store';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Switch from 'react-switch';
 import Home from './components/Home/Home';
+import Cart from './components/Cart/Cart';
+import About from './components/About/About';
+import Shop from './components/Shop/Shop';
+
 
 const App = () => {
   return(
