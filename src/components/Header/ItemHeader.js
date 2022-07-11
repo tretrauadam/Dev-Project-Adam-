@@ -1,7 +1,7 @@
 import Banner from './Banner'
 import ItemNav from './ItemNav';
 
-function header() {
+function Header() {
     return(
         <div>
             <Banner/>
@@ -10,4 +10,4 @@ function header() {
     )
 }
 
-export default header; 
+export default Header; 

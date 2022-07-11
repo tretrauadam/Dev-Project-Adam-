@@ -2,7 +2,6 @@ import React from 'react';
 import {useParams} from 'react-router';
 import {useSelector} from 'react-redux';
 
-
 import ShopDisplay from './ShopDisplay'
 import ShopHero from './ShopHero';
 import Nav from '../Header/Nav';

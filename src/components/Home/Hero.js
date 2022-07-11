@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../Header/ItemHeader';
 import { Link } from 'react-router-dom'; 
 import hero from 'assets/hero.jpg'
 
@@ -7,7 +8,7 @@ function Hero() {
     return( 
 
         <div className='relative'>
-            <header />
+            <Header />
             <div className='bg-center bg-cover bg-fixed bg-no-repeat h-screen md:w-full'
             style={{backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(${hero})`}}>
                 <div className='flex flex-col h-full px-4 md:m1-auto md:mt-auto w-full md:w-1/2 justify-center text-white font-display space-y-4 md:space-y-6'>

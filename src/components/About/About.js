@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
 import AboutHero from './AboutHero';
+import Header from '../Header/ItemHeader';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faGithub} from'@fortawesome/free-solid-svg-icons'
@@ -31,10 +32,10 @@ const About = () =>{
                             <p> Email us ! <br></br>bookies@email.com</p>
                             <div className='flex space-x-6'>
                                 <a href='www.github.com' target='_blank'>
-                                    <FontAwesomeIcon className='text-2xl text-gray-700 hover:text-gray-900' icon={'' }  />
+                                    <FontAwesomeIcon className='text-2xl text-gray-700 hover:text-gray-900' icon={faGithub}  />
                                 </a>
                                 <a href='www.linkedin.com' target='_blank'>
-                                    <FontAwesomeIcon className='text-2xl text-gray-700 hover:text-gray-900' icon={ '' } />
+                                    <FontAwesomeIcon className='text-2xl text-gray-700 hover:text-gray-900' icon={faLinkedin} />
                                 </a>
                             
                             </div>
