@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useDispatch} from 'react-redux'
-import { subtractCartQuantity , increaseCartQuantity, addToTotal, subtractFromTotal} from '../Cart/cartSlice'
+import { subtractCartQuantity , increaseCartQuantity, addToTotal, subtractFromTotal} from './cartSlice'
 
 function CartDisplay(props) {
     const dispatch = useDispatch()

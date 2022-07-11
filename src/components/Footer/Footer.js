@@ -51,10 +51,10 @@ function Footer(){
                 <p className='font-body text-sm text-gray-700'>emai@email.com</p>
                 <div className='flex space-x-6'>
                     <a href='www.github.com' target='{blank} rel="noopener noreferrer"'>
-                        <FontAwesomeIcon className='text-xl md:text-2xl text-gray-700 hover:text-gray-900' icon={}/>
+                        <FontAwesomeIcon className='text-xl md:text-2xl text-gray-700 hover:text-gray-900' icon={''}/>
                     </a>
                     <a href='www.linkedin.com' target='_blank rel="noopener noreferrer"'>
-                        <FontAwesomeIcon className="text-xl md:text-2x1 texr-geat-700 hover:text-gray-900" icon={}/>
+                        <FontAwesomeIcon className="text-xl md:text-2x1 texr-geat-700 hover:text-gray-900" icon={''}/>
                     </a>
                 </div>
             </div>

@@ -3,7 +3,7 @@ import Hero from './Hero';
 import TextCards from './TextCard';
 import ShopCards from './ShopCards';
 import CircleCards from './CircleCards';
-import Footer from './Footer/Footer'
+import Footer from '../Footer/Footer'
 
 function Home(){
     return(
