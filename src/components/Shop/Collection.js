@@ -1,10 +1,13 @@
 import React from 'react';
 import {useParams} from 'react-router';
-import {useSelector} from 'react-redux'; 
+import {useSelector} from 'react-redux';
+
+
 import ShopDisplay from './ShopDisplay'
 import ShopHero from './ShopHero';
 import Nav from '../Header/Nav';
 import Footer from '../Footer/Footer';
+import ShopNav from './ShopNav';
 
 
 

@@ -1,7 +1,11 @@
 
 import React from 'react';
 import { useSelector } from 'react-redux'
-import ShopDisplay from '.'
+import ShopDisplay from './ShopDisplay';
+import Header from 'components/Header/Header';
+import Footer from 'components/Footer/Footer';
+import ShopHero from './ShopHero';
+import ShopNav from './ShopNav';
 
 function Shop(){
     const products = useSelector(state => state.cart.products)
@@ -21,6 +25,7 @@ function Shop(){
             <div className='h-screen relative'>
                 <Header />
                 <ShopHero /> 
+                <ShopNav/> 
                 <div className='grid grid-cols-2 md:grid-cols-3 mx-8 mb-14 gap-x-8 gap-y-12'>
                      {plants} 
                </div>

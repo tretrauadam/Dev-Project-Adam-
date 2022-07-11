@@ -1,8 +1,11 @@
 import React from 'react';
 import Header from '../Header/ItemHeader';
+import Footer from '../Footer/Footer';
 import { useParams } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-dom'; 
 import { addQuantity, addToCart, addToTotal, displayCart } from '../Cart/cartSlice';
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faStar} from '@fortawesome/free-solid-svg-icons';
 import {faSun} from '@fortawesome/free-solid-svg-icons';
