@@ -31,10 +31,10 @@ const About = () =>{
                             <p> Email us ! <br></br>bookies@email.com</p>
                             <div className='flex space-x-6'>
                                 <a href='www.github.com' target='_blank'>
-                                    <FontAwesomeIcon className='text-2xl text-gray-700 hover:text-gray-900' icon={ faGithub }  />
+                                    <FontAwesomeIcon className='text-2xl text-gray-700 hover:text-gray-900' icon={'' }  />
                                 </a>
                                 <a href='www.linkedin.com' target='_blank'>
-                                    <FontAwesomeIcon className='text-2xl text-gray-700 hover:text-gray-900' icon={ faLinkedin } />
+                                    <FontAwesomeIcon className='text-2xl text-gray-700 hover:text-gray-900' icon={ '' } />
                                 </a>
                             
                             </div>
