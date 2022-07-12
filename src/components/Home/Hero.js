@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header/ItemHeader';
 import { Link } from 'react-router-dom'; 
-import hero from 'assets/hero.jpg'
+import hero from '../../assets/hero.png'
 
 
 function Hero() {

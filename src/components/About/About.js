@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from '../Footer/Footer';
 import AboutHero from './AboutHero';
 import Header from '../Header/ItemHeader';
-import aboutImg from '/home/tretrauadam/shopping_cart_project/shopping_cart_rails_app/src/assets/aboutImg.png';
+import aboutImg from '../../assets/aboutImg.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faAddressBook, faWorm} from'@fortawesome/free-solid-svg-icons'

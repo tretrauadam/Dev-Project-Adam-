@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'; 
-import work from 'assets/work.jpg'; 
-import window from 'assets/window.jpg'; 
+import work from '../../assets/work.png'; 
+import window from '../../assets/window.png'; 
 
 // need to import two pictures, one for each main div card. 
 

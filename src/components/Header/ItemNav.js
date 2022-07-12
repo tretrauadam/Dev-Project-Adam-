@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import { useDispatch } from 'react-redux'
-import { displayCart } from '../Cart/cartSlice';
+import  {useDispatch}  from 'react-redux'
+import {displayCart} from '../Cart/cartSlice';
 
 const ItemNav = () => {
-    const dispatch = useDipatch()
+    const dispatch = useDispatch()
 
     return(
         <nav className='flex h-18 py-4 w-full m-auto text-gray-800'>

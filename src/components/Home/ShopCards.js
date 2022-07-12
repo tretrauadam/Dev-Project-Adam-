@@ -1,9 +1,9 @@
 import React from 'react'; 
 import {Link} from 'react-router-dom'
-import snake2 from 'assets/snake2.jpg'
-import collection from 'assets/collection.jpg';
-import petFriendly from 'assets/petFriendly.jpg';
-import succulents from 'assets/succulents.jpg';
+import snake2 from '../../assets/snake2.png'
+import collection from '../../assets/collection.png';
+import petFriendly from '../../assets/petFriendly.png';
+import succulents from '../../assets/succulents.png';
 
 function ShopCards () {
     return(

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useDispatch} from 'react-redux'
+import {useDispatch} from 'react-redux'
 import { subtractCartQuantity , increaseCartQuantity, addToTotal, subtractFromTotal} from './cartSlice'
 
 function CartDisplay(props) {
@@ -51,4 +51,4 @@ function CartDisplay(props) {
     )
 }
 
-export default CartDisplay
+export default CartDisplay;
