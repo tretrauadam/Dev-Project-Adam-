@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useDispatch } from 'react-dom';
+import { useDispatch } from 'react-redux';
 import { displayCart } from '../Cart/cartSlice';
 
 const Nav = () => {

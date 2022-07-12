@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../Header/ItemHeader';
 import Footer from '../Footer/Footer';
 import { useParams } from 'react-router-dom'
-import { useSelector, useDispatch } from 'react-dom'; 
+import { useSelector, useDispatch } from 'react-redux'; 
 import { addQuantity, addToCart, addToTotal, displayCart } from '../Cart/cartSlice';
 
 

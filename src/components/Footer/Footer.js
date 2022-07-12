@@ -1,8 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faGithub} from '@fortawesome/free-solid-svg-icons'
-import {faLinkedin} from '@fortawesome/free-solid-svg-icons'
+import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
 
 function Footer(){
