@@ -1,7 +1,7 @@
 import React from 'react';
-import succulent from '../../assets/succulent.png'; 
-import pots from '../../assets/pots.png';
-import collection2 from '../../assets/collection2.png';
+import succulent from '/src/succulent.png'; 
+import pots from '/src/components/assets/pots.png';
+import collection2 from '/src/components/assets/collection2.png';
 
 
 
