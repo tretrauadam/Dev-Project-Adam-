@@ -18,7 +18,7 @@ function CircleCards(){
                         we source our paper from bio trees
                     </p>
                 </li>
-                <li class="flex flex-col space-y-6 m-auto md:m-0">
+                <li className="flex flex-col space-y-6 m-auto md:m-0">
                     <img src={pots} alt='' className="m-auto h-52 w-52 rounded-full"/>
                     <h2 className='text-2xl text-gray-800 font-display'> Sustainble books</h2>
                     <p className='font-body font-light text-gray-800 w-80 leading-relaxed break-words'>
@@ -27,7 +27,7 @@ function CircleCards(){
                 </li>
                 <li className='flex flex-col space-y-6 m-auto md:m-0'>
                     <img className='m-auto h-52 w-52 rounded-full' src={collection2} alt=''/>
-                    <h2 className='text-yellow-200 text-2xl font-display'> made with real paper</h2>
+                    <h2 className='text-black text-2xl font-display'> made with real paper</h2>
                     <p className='font-body font-light text-gray-800 w-80 leading-relaxed break-words'>
                         blood sweat and tears, literally 
                     </p>

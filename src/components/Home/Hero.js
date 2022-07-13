@@ -13,7 +13,7 @@ function Hero() {
             style={{backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(${hero})`}}>
                 <div className='flex flex-col h-full px-4 md:m1-auto md:mt-auto w-full md:w-1/2 justify-center text-white font-display space-y-4 md:space-y-6'>
                     <p className='text-3xl md:text-5xl'>
-                    Organic plants <br></br> Right to your Doorstep
+                    Organic plants <br></br>  Right to your Doorstep
                     </p>
                     <p className='font-light text-lg sm:text-2xl p-4' > buy now  </p>
                     <Link to="/shop">

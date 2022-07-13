@@ -14,13 +14,14 @@ function TextCards() {
                 </div>
                 <div className='flex flex-col md:w-5/12 space-y-8 justify-center text-center md:text-left mx-4 md:mr-6 2xl:mr-0'>
                     <h2 className='font-display text-2xl md:text-4xl'>Lets do this</h2>
-                    <p className='font-body text-lg md:text-xl tracking-wide break-words leading-loose'>
-                    So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on,
-                    and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention 
-                    or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.
+                    <p className='font-body text-lg md:text-l tracking-wide break-words leading-loose'>
+                        We established ourselves in the city of Hanoi, famed for its decorative and vibrant city, our first apartment in the city had a lovely balcony 
+                        overlooking the lake. fortune favoured us for, we lived directly above the flower street market. some people buy clothes or a watch to treat themselves, 
+                        for us, we were always excited to add plants to our pretty balcony. 
+                   
                     </p>
                     <Link to="/shop">
-                    <button className='bg-red-300 font-body rounded-md text-lg sm:text-2xl p-2 sm:p-4 w-32 sm:w-48 transform duration-200 hover:-translate-y-1 hover:bg-red-500'>
+                    <button className='bg-red-500 font-body rounded-md text-lg sm:text-2xl p-2 sm:p-4 w-32 sm:w-48 transform duration-200 hover:-translate-y-1 hover:bg-red-500'>
                             Shop Now
                         </button>
                     </Link>
@@ -41,7 +42,7 @@ function TextCards() {
                         And would suffice.
                     </p>
                     <Link to='/shop'>
-                        <button className='bg-green-800 font-body rounded-md text-lg sm:text-2xl p-2 sm:p-4 w-32 sm:w-48 transform duration-200 hover:-translate-y-1 hover:bg-red-500'>
+                        <button className='bg-red-500 font-body rounded-md text-lg sm:text-2xl p-2 sm:p-4 w-32 sm:w-48 transform duration-200 hover:-translate-y-1 hover:bg-red-500'>
                             let's order
                         </button>
                     </Link>

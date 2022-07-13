@@ -9,7 +9,7 @@ function ShopCards () {
     return(
         <div className='w-full bg-white'>
             <h1 className='p1-7 pt-14 pb-8 md:pb-20 font-display text-gray-800 text-3xl lg:text-6x 2xl:w-3/4 m-auto'>Collections</h1>
-            <u1 className='flex flex-col md:flex-row space-y-12 md:space-y-0 m-auto text-center md:justify-between text-2xl 2xl:w-3/4'>
+            <ul className='flex flex-col md:flex-row space-y-12 md:space-y-0 m-auto text-center md:justify-between text-2xl 2xl:w-3/4'>
             <Link to='./shop/beginner'>
                 <li className='space-y-6 w-3/4 md:w-full text-center m-auto cursor-pointer transform hover:scale-105 hover:text-red-300 duration-200 ease-in-out'>
                     <img className='h-96 w-full shadow-xl' src={snake2} alt=''/>
@@ -34,7 +34,7 @@ function ShopCards () {
                     <p className='font-body'> Shop and Smile</p>
                </li>
             </Link>
-           </u1>
+           </ul>
         </div>
     )
 }
