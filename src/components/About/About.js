@@ -35,7 +35,7 @@ const About = () => {
               </div>
               <div className='w-full md:w-5/12 flex flex-col space-y-5 m-auto text-left font-display text-sm md:text-base leading-loose'>
                 <p >Questions, comments and advice. <br></br> We would love to hear from you </p>
-                <p>Email us! <br></br>Bloom@email</p>
+                <p>Email us! <br></br>Greenify@email</p>
                 <div className='flex space-x-6'>
                         <a href='https://github.com/jtcaovan' target='_blank rel="noopener noreferrer"'>
                             <FontAwesomeIcon className='text-2xl text-gray-700 hover:text-gray-900' icon={ faGithub } /> 

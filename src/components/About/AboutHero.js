@@ -5,10 +5,10 @@ import about from '/home/tretrauadam/shopping_cart_project/shopping_cart_rails_a
 function AboutHero(){
     return(
         <div className='bg-center md:bg-cover bg-fixed bg-no-repeat h-3/4 md:h screen md:w-full'
-          style={{backgroundImage:`linear-graident(rgba(0,0,0,0.5), rgba(0,0,0,0.3)) url(${about})`}}>
-            <h1 className='flex text-$xl md:text-%xl h-full md:ml-auto md:mt-auto w-full md:w-1/2 text-white font-display justify-center
+        style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(${about})`}}>
+            <h1 className='flex text-5xl md:text-5xl h-full md:ml-auto md:mt-auto w-full md:w-1/2 text-white font-display justify-center
             items-center'>
-                Who are We ? 
+                About Greenify 
             </h1>
           </div>
     )
