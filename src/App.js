@@ -9,9 +9,20 @@ import About from './components/About/About'
 import Shop from './components/Shop/Shop'
 import Collection from './components/Shop/Collections'
 import ItemDetail from './components/Shop/ItemDetail';
+import './app.css';
+import { useState } from 'react';
 
 const App = () => {
+
+  const [darkMode, setDarkMode] = useState(false)
     return (
+
+      <div class="h-screen w-full flex items-center justify-center pt-4 bg-white flex-col">
+      <label class="switch">
+          <input type="checkbox" onClick={() => setDarkMode(!darkMode)} />
+          <span class="slider round"></span>
+      </label>
+  
       <Router>
       <Provider store={store}>
               
@@ -27,10 +38,11 @@ const App = () => {
                     </Routes>             
       </Provider>
   </Router>
+  </div>
     
-  )
+  );
       
       
-}
+};
 
 export default App;
