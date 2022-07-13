@@ -31,15 +31,7 @@ function TextCards() {
                 <div className='flex flex-col md:w-5/12 space-y-8 justify-center text-center md:text-left mx-4 md:mr-6 2xl:mr-0'>
                     <h2 className='font-display pt-4 md:pt-0 text-2xl md:text-4xl'>Lets do this again</h2>
                     <p className='font-body text-lg md:text-xl tracking-wide break-words leading-loose'>
-                    Some say the world will end in fire,
-                        Some say in ice.
-                        From what I/'ve tasted of desire
-                        I hold with those who favour fire.
-                        But if it had to perish twice,
-                        I think I know enough of hate
-                        To say that for destruction ice
-                        Is also great
-                        And would suffice.
+                        Enlighten your home with a bit of sunshine, we can recommend the best plants for your living style, be it under a bridge or a skyscrapper apartment.
                     </p>
                     <Link to='/shop'>
                         <button className='bg-red-500 font-body rounded-md text-lg sm:text-2xl p-2 sm:p-4 w-32 sm:w-48 transform duration-200 hover:-translate-y-1 hover:bg-red-500'>

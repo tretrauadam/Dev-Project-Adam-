@@ -92,7 +92,7 @@ function ItemDetail() {
                                     </div>
                                     <button
                                       onClick={handleClick}
-                                      className='w-full h-12 my-4 p-4 font-body text-sm bg-gray-900 bg-opacity-70 text-white
+                                      className='w-full h-12 my-4 p-4 font-body text-sm bg-gray-900 bg-opacity-70 text-gray border-black-200
                                       rounded transition duration-300 border-gray-900 hover: bg-transparent hover:text-gray-900 hover:border activce:bg-gray-100 focus:outline-none'>
                                         Add to Shopping Cart
                                     </button>

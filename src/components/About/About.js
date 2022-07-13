@@ -18,15 +18,13 @@ const About = () => {
             <h1 className='font-display text-2xl md:text-4xl m-12'>Our Humble Beginnings</h1>
             <div className='font-body leading-loose text-sm md:text-base text-center flex flex-col w-full 2xl:w-1/2 2xl:m-auto space-y-6'>
               <p>
-              In 2017, Justin Caovan lived in a small, boring apartment in Long Beach, CA while attending university.
-              After a couple of years of sharing a room, he finally had his own space and decided to spruce it up and make it his own. At a local swapmeet Justin picked up several houseplants
-              including a spider plant, golden pothos, and a couple of succulents. The new plants instantly brightened up his dull room and was soon hooked.
+              what started out as a passion turned into an addiction, travelling around the globe looking for new and exciting plants. my apartment started to look
+              like a botanical garden. Through this passion me and my crew are delighted to share it with you and your home.
               </p>
               
               <p>
-              Over time, his plants outgrew his tiny room so he decided to propogate, pot, and gift them to his friends and family. Word got out Justin was giving away free plants so the
-              local broke college students jumped at the opportunity to grab one for their living space. Met with an overwhelming demand, he employed the help of his friends to operate
-              a mini nursery out of their apartment, thus creating Bloom.
+              Gradually, my first appartment started to resemble a rainforest and this is when i decided, the poor people who are missing out on this, We need
+              share our experience and help people plan their home layout with a variety of vibrant plants each with it's own unique properities. 
               </p>
             </div>
 
@@ -36,8 +34,8 @@ const About = () => {
                 <img src={aboutImg} alt='Multiple plants'/>
               </div>
               <div className='w-full md:w-5/12 flex flex-col space-y-5 m-auto text-left font-display text-sm md:text-base leading-loose'>
-                <p >Questions, comments, concerns? Bloom is always looking for new opportunities, local artisans, and ways to spread our love of plants!</p>
-                <p>Email us! <br></br>jtcaovan@gmail.com</p>
+                <p >Questions, comments and advice. <br></br> We would love to hear from you </p>
+                <p>Email us! <br></br>Bloom@email</p>
                 <div className='flex space-x-6'>
                         <a href='https://github.com/jtcaovan' target='_blank rel="noopener noreferrer"'>
                             <FontAwesomeIcon className='text-2xl text-gray-700 hover:text-gray-900' icon={ faGithub } /> 
