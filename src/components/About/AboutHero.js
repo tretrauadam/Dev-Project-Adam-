@@ -1,5 +1,5 @@
 import React from 'react';
-import about from '/src/components/assets/about.png'
+import about from '/home/tretrauadam/shopping_cart_project/shopping_cart_rails_app/src/assets/about.jpg';
 
 
 function AboutHero(){

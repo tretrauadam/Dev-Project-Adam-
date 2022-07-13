@@ -40,7 +40,7 @@ function Collections(){
         price={plant.price}
         purify={plant.purify}
         beginner={plant.purify}
-        petFriendly = {plant.petFriendly}
+        petFriendly={plant.petFriendly}
         img={plant.img}
 
          />)

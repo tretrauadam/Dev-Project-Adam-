@@ -1,5 +1,5 @@
 import React from 'react';
-import fiddle from '/src/components/assets/fiddle.png'; 
+import fiddle from '/home/tretrauadam/shopping_cart_project/shopping_cart_rails_app/src/assets/fiddle.jpg'; 
 
 
 function ShopHero() {

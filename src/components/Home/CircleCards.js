@@ -1,7 +1,7 @@
 import React from 'react';
-import succulent from '/src/succulent.png'; 
-import pots from '/src/components/assets/pots.png';
-import collection2 from '/src/components/assets/collection2.png';
+import succulent from '/home/tretrauadam/shopping_cart_project/shopping_cart_rails_app/src/assets/succulent.jpg'; 
+import pots from '/home/tretrauadam/shopping_cart_project/shopping_cart_rails_app/src/assets/pots.jpg';
+import collection2 from '/home/tretrauadam/shopping_cart_project/shopping_cart_rails_app/src/assets/collection2.jpg';
 
 
 

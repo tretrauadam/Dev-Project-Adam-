@@ -25,16 +25,16 @@ function ShopNav(){
             <Link to={'./shop'} className={name.collection === undefined && 'hidden'} >
                 <button className='p-2 border-2 rounded-lg bg-gray-200 bg-opacity-40 hover:bg-gray-280 hover:bg-opacity-40'>Shop All </button>
             </Link>
-            <Link to={`./shop/airpPurifying`} className={name.collection === 'airPurifying' && 'hidden'}>
+            <Link to={'/shop/airpPurifying'} className={name.collection === 'airPurifying' && 'hidden'}>
                  <button className='p-2 border-2 rounded-lg bg-gray-200 bg-opacity-40 hover:bg-gray-280 hover:bg-opacity-40'>Aur Purifying</button>
             </Link>
-            <Link to={`./shop/beginner`} className={name.collection === 'beginner' && 'hidden'}>
+            <Link to={'/shop/beginner'} className={name.collection === 'beginner' && 'hidden'}>
                  <button className='p-2 border-2 rounded-lg bg-gray-200 bg-opacity-40 hover:bg-gray-280 hover:bg-opacity-40'> Beginner Friendly </button>
             </Link>
-            <Link to={`./shop/pet-friendly`} className={name.collection === 'pet-friendly' && 'hidden'}>
+            <Link to={'/shop/pet-friendly'} className={name.collection === 'pet-friendly' && 'hidden'}>
                  <button className='p-2 border-2 rounded-lg bg-gray-200 bg-opacity-40 hover:bg-gray-280 hover:bg-opacity-40'>Pet friendly</button>
             </Link>
-            <Link to={`./shop/succulent`} className={name.collection === 'succulent' && 'hidden'}>
+            <Link to={'/shop/succulent'} className={name.collection === 'succulent' && 'hidden'}>
                 <button className='p-2 border-2 rounded-lg bg-gray-200 bg-opacity-40 hover:bg-gray-280 hover:bg-opacity-40'>Succulents</button>
             </Link>
           </div>

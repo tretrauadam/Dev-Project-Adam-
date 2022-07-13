@@ -1,9 +1,9 @@
 import React from 'react'; 
 import {Link} from 'react-router-dom'
-import snake2 from '/src/components/assets/snake2'
-import collection from '/src/components/assets/collection.png';
-import petFriendly from '/src/components/assets/petFriendly.png';
-import succulents from '/src/components/assets/succulents';
+import snake2 from '/home/tretrauadam/shopping_cart_project/shopping_cart_rails_app/src/assets/snake2.jpg'
+import collection from '/home/tretrauadam/shopping_cart_project/shopping_cart_rails_app/src/assets/collection2.jpg';
+import petFriendly from '/home/tretrauadam/shopping_cart_project/shopping_cart_rails_app/src/assets/petFriendly.jpg';
+import succulents from '/home/tretrauadam/shopping_cart_project/shopping_cart_rails_app/src/assets/succulents.jpg';
 
 function ShopCards () {
     return(
@@ -16,13 +16,13 @@ function ShopCards () {
                     <p className='font-body'>Beginner Friendly</p>
                 </li>
             </Link>
-            <Link to='./shop/airPurifying'>
+            <Link to='/src/assets/shop/'>
                 <li className='space-y-6 w-3/4 md:w-full text-center m-auto cursor-pointer transform hover:scale-105 hover:text-red-500 duration-200 ease-in-out'>
                     <img className='h-96 w-full shadow-xl' src={collection} alt=''/>
                     <p className='font-body'>Air Purifiers</p>
                 </li>
             </Link>
-            < Link to="./shop/pet-friendly">
+            <Link to="./shop/pet-friendly">
                 <li className='space-y-6 w-3/4 md:w-full text-center m-auto cursor-pointer transform hover:scale-105 hover:text-red-500 duration-200 ease-in-out'>
                     <img className='h-96 w-full shadow-xl' src={petFriendly} alt=''/> 
                     <p className='font-body'>Pet Friendly</p>

@@ -29,7 +29,7 @@ function Footer(){
                     <Link to='/'>
                         <h1 className='font-display font-medium md:text-lg text-gray-900'>Bookies</h1>
                     </Link>
-                    <Link className='font-body text-gray-700 text-sm md:text-base flex-col space-y-4' to='/about'>
+                    <Link to='/about' className='font-body text-gray-700 text-sm md:text-base flex-col space-y-4' >
                         <h1>About Us</h1>
                         <h1>FAQ</h1>
                     </Link>

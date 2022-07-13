@@ -1,16 +1,15 @@
 import { createSlice } from '@reduxjs/toolkit';
-import products from '../../products/products.js';
+import products from '/home/tretrauadam/shopping_cart_project/shopping_cart_rails_app/src/products/products.js';
 
 export const cartSlice = createSlice({
-    name: 'cart', 
+    name: 'cart',
     initialState: {
         products: products,
-        currentCarts: [],
+        currentCart: [],
         totalItems: 0,
         totalPrice: 0,
         display: 'hidden'
     },
-
     reducers: {
         addToCart: (state, action) => {
             state.currentCart.push(action.payload)
@@ -19,43 +18,41 @@ export const cartSlice = createSlice({
         addQuantity: (state, action) => {
             let item = state.currentCart.find(item => item.product.id === action.payload)
             let newCart = state.currentCart.filter(item => item.product.id !== action.payload)
-
+            
             item.quantity += 1
             newCart.push(item)
             state.currentCart = newCart
         },
         increaseCartQuantity: (state, action) => {
-            let newState = state.currentCart.map(item => {
+            let newState = state.currentCart.map(item => { 
                 if (item.product.id === action.payload) {
                     item.quantity += 1
                 }
                 return item
             })
-            state.currentCart = newState 
+            state.currentCart = newState
             state.totalItems += 1
         },
-        substractCartQuantity: (state, action) => {
-            let newCart = state.currentCart.map(item => {
-                if(item.product.id === action.payload){
-                    item.quantity -= 1
+        subtractCartQuantity: (state, action) => {
+            let newCart = state.currentCart.map(item => { 
+                if (item.product.id === action.payload) {
+                        item.quantity -= 1
                 }
-                return item 
+                return item
             })
             state.currentCart = newCart.filter(item => item.quantity !== 0)
             state.totalItems -= 1
         },
         addToTotal: (state, action) => {
             state.totalPrice += action.payload
-        }, 
-        substractFromTotal: (state, action) => {
+        },
+        subtractFromTotal: (state, action) => {
             state.totalPrice -= action.payload
         },
         displayCart: (state) => {
-            state.display = null 
+            state.display = null
         },
-        
         hideCart: (state) => {
-
             state.display = 'hidden'
         },
     }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {useDispatch} from 'react-redux'
-import { subtractCartQuantity , increaseCartQuantity, addToTotal, subtractFromTotal} from './cartSlice'
+import { useDispatch} from 'react-redux'
+import { subtractCartQuantity , increaseCartQuantity, addToTotal, subtractFromTotal} from '../Cart/cartSlice'
 
 function CartDisplay(props) {
     const dispatch = useDispatch()
@@ -32,7 +32,7 @@ function CartDisplay(props) {
                 <div className='h-8 flex'>
                     <div className='p-2 border-2 cursor-pointer' onClick = {subtractQuantityFromCart}>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"/>
+                            <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d="M20 12H4"/>
                         </svg>
                     </div>
 
@@ -51,4 +51,4 @@ function CartDisplay(props) {
     )
 }
 
-export default CartDisplay;
+export default CartDisplay

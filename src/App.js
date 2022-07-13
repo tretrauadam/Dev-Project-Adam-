@@ -1,9 +1,8 @@
 import React from 'react';
 import './index.css';
 import store from './store';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Switch, Router, Route, Routes} from 'react-router-dom';
 import { Provider } from 'react-redux';
-import Switch from 'react-switch';
 import Home from './components/Home/Home';
 import Cart from './components/Cart/Cart';
 import About from './components/About/About';
@@ -18,13 +17,15 @@ const App = () => {
     <Provider store={store}>
       <Router>
         <ScrollToTop/>
-        <Cart />
-        <Switch>
-          <Route exact path='/' component={Home}/>
-          <Route exact path='/about' component={About}/>
-          <Route exact path='/shop' component={Shop}/>
-          <Route exact path='/shop/:collection' component={Collections} />
-          <Route exact path='/shop/collection/:name' component={ItemDetail}/>
+        <Cart/>
+        <Switch>   
+          <Routes>
+          <Route exact path to='/'component={<Home/>}/>
+          <Route exact path to='/about' component={<About/>}/>
+          <Route exact path to='/shop' component={<Shop/>}/>
+          <Route exact path to='/shop/:collection' component={<Collections/>} />
+          <Route exact path to='/shop/collection/:name' component={<ItemDetail/>}/>
+         </Routes> 
         </Switch>
       </Router>
     </Provider>

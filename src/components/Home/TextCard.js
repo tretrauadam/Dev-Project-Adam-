@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'; 
-import work from '/src/components/assets/work.png'; 
-import window from '/src/components/assets/window.png'; 
+import work from '/home/tretrauadam/shopping_cart_project/shopping_cart_rails_app/src/assets/work.jpg'; 
+import window from '/home/tretrauadam/shopping_cart_project/shopping_cart_rails_app/src/assets/window.jpg'; 
 
 // need to import two pictures, one for each main div card. 
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header/ItemHeader';
 import { Link } from 'react-router-dom'; 
-import hero from '/src/components/assets/hero.png'
+import hero from '/home/tretrauadam/shopping_cart_project/shopping_cart_rails_app/src/assets/hero.jpg'
 
 
 function Hero() {
@@ -16,7 +16,7 @@ function Hero() {
                     Delicious Buds  <br></br> Right to your Doorstep
                     </p>
                     <p className='font-light text-lg sm:text-2xl'> Shopping for Buds has never been easier </p>
-                    <Link to="./shop">
+                    <Link to="/shop">
                         <button className='bg-red-300 font-body rounded-md text-lg sm:text-2xl p-2 sm:p-4 w-32 sm:w-48 transform duration-200 hover:-translate-y-1 hover:bg-red-500'>
                             Shop Now
                         </button>
